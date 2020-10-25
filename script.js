@@ -1,8 +1,8 @@
-var music = document.getElementById("music")
-  music.load();
-  document.addEventListener("click", function() {
-  music.play();
-  })
+var music = document.getElementById("music");
+music.load();
+document.addEventListener("click", ()=>{
+ music.play();
+});
 var slideIndex = 0;
 showSlides();
 
